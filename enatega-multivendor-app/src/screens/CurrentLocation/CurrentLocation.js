@@ -28,14 +28,14 @@ export default function CurrentLocation() {
     Track()
   }, [])
 
-  const setCurrentLocation = async() => {
+  const setCurrentLocation = async () => {
     setLoading(true)
     const { status, canAskAgain } = await getLocationPermission()
     if (status !== 'granted' && !canAskAgain) {
       FlashMessage({
         message:
           'Tap on this message to open Settings then allow app to use location from permissions.',
-        onPress: async() => {
+        onPress: async () => {
           await Linking.openSettings()
         }
       })
@@ -71,7 +71,7 @@ export default function CurrentLocation() {
             </View>
             <View style={styles().descriptionEmpty}>
               <TextDefault textColor={currentTheme.fontMainColor} bolder center>
-                {'Enatega uses your location to show the restaurants near you!'}
+                {'Shajer uses your location to show the restaurants near you!'}
               </TextDefault>
             </View>
             <TouchableOpacity

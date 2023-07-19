@@ -17,7 +17,7 @@ export const en = {
     'Age does not diminish the extreme disappointment of having a scoop of ice cream fall from the cone',
   getStarted: 'Get Started!',
   welcome:
-    "Welcome to Enatega, sometimes all you need is love. But a little food now and then doesn't hurt.",
+    "Welcome to shajer, sometimes all you need is love. But a little food now and then doesn't hurt.",
   loginBtn: 'Login',
   registerBtn: 'Register',
   name: 'Name',
