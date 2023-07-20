@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Enatega Multivendor",
-    "scheme": "enategamultivendor",
+    "name": "shajer Multivendor",
+    "scheme": "shajermultivendor",
     "version": "1.0.21",
-    "description": "Enatega is a starter kit food ordering app built in React Native using Expo for IOS and Android. It's made keeping good aesthetics in mind as well keeping the best coding practices in mind. Its fully customisable to easily help you in your next food delivery project. https://market.nativebase.io/view/react-native-food-delivery-backend-app",
-    "slug": "enategamultivendor",
+    "description": "shajer is a starter kit food ordering app built in React Native using Expo for IOS and Android. It's made keeping good aesthetics in mind as well keeping the best coding practices in mind. Its fully customisable to easily help you in your next food delivery project. https://market.nativebase.io/view/react-native-food-delivery-backend-app",
+    "slug": "shajermultivendor",
     "privacy": "public",
     "androidStatusBar": {
       "backgroundColor": "#000"
@@ -25,7 +25,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.enatega.multivendor",
+      "bundleIdentifier": "com.shajer.multivendor",
       "config": {
         "googleMapsApiKey": "AIzaSyCzNP5qQql2a5y8lOoO-1yj1lj_tzjVImA"
       },
@@ -43,11 +43,11 @@
       "color": "#6FCF97",
       "icon": "./assets/not-icon.png",
       "androidMode": "default",
-      "androidCollapsedTitle": "Enatega Multivendor"
+      "androidCollapsedTitle": "shajer Multivendor"
     },
     "android": {
       "versionCode": 23,
-      "package": "com.enatega.multivendor",
+      "package": "com.shajer.multivendor",
       "googleServicesFile": "./google-services.json",
       "config": {
         "googleMaps": {
@@ -91,14 +91,14 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Allow $Enatega Multivendor to use your location."
+          "locationAlwaysAndWhenInUsePermission": "Allow $shajer Multivendor to use your location."
         }
       ],
       "sentry-expo"
     ],
     "extra": {
       "eas": {
-        "projectId": "970c646e-e9fe-4c44-ac0c-ca14febf8ace"
+        "projectId": "4afe05f2-b20c-412c-adc9-ce4787c237af"
       }
     }
   }
