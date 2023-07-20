@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "Enatega Multivendor Rider",
-    "description": "Enatega is a starter kit food ordering app built in React Native using Expo for IOS and Android. It's made keeping good aesthetics in mind as well keeping the best coding practices in mind. Its fully customisable to easily help you in your next food delivery project. https://market.nativebase.io/view/react-native-food-delivery-backend-app",
-    "version": "1.1.16",
-    "slug": "food-delivery-rider-multivendor",
+    "name": "shajer Multivendor courier",
+    "description": "shajer is a starter kit food ordering app built in React Native using Expo for IOS and Android. It's made keeping good aesthetics in mind as well keeping the best coding practices in mind. Its fully customisable to easily help you in your next food delivery project. https://market.nativebase.io/view/react-native-food-delivery-backend-app",
+    "version": "1.1.1",
+    "slug": "shajer-multivendor-courier",
     "privacy": "public",
     "androidStatusBar": {
       "backgroundColor": "#000"
@@ -24,7 +24,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.enatega.multirider",
+      "bundleIdentifier": "com.shajer.courier",
       "config": {
         "googleMapsApiKey": "AIzaSyCzNP5qQql2a5y8lOoO-1yj1lj_tzjVImA"
       },
@@ -38,7 +38,7 @@
       }
     },
     "android": {
-      "versionCode": 23,
+      "versionCode": 1,
       "googleServicesFile": "./google-services.json",
       "useNextNotificationsApi": true,
       "permissions": [
@@ -50,11 +50,11 @@
           "apiKey": "AIzaSyCzNP5qQql2a5y8lOoO-1yj1lj_tzjVImA"
         }
       },
-      "package": "com.enatega.multirider"
+      "package": "com.shajer.courier"
     },
     "extra": {
       "eas": {
-        "projectId": "d2459419-b373-4ff5-a34a-431baef88d12"
+        "projectId": "3bbe2487-f875-434e-a15a-3a0bd84d9aa7"
       }
     }
   },
@@ -64,7 +64,7 @@
         "file": "sentry-expo/upload-sourcemaps",
         "config": {
           "organization": "ninjas-code",
-          "project": "enatega-multivendor-app",
+          "project": "shajer-multivendor-app",
           "authToken": "744ed798e04a40a896b0269c25f945de0e166db8362e41969b64d5e07ca80e65"
         }
       }

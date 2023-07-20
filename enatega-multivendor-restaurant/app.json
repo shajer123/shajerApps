@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Enatega Multivendor Restaurant",
-    "slug": "enatega-multivendor-restaurant",
-    "version": "1.0.21",
+    "name": "shajer Multivendor Vendor",
+    "slug": "shajer-multivendor-vendor",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -15,7 +15,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "multivendor.enatega.restaurant",
+      "bundleIdentifier": "multivendor.shajer.vendor",
       "infoPlist": {
         "UIBackgroundModes": [
           "audio",
@@ -24,9 +24,9 @@
       }
     },
     "android": {
-      "versionCode": 27,
+      "versionCode": 1,
       "useNextNotificationsApi": true,
-      "package": "multivendor.enatega.restaurant",
+      "package": "multivendor.shajer.vendor",
       "googleServicesFile": "./google-services.json",
       "permissions": [
         "ACCESS_COARSE_LOCATION",
@@ -39,7 +39,7 @@
           "file": "sentry-expo/upload-sourcemaps",
           "config": {
             "organization": "ninjas-code",
-            "project": "enatega-multivendor-app",
+            "project": "shajer-multivendor-app",
             "authToken": "744ed798e04a40a896b0269c25f945de0e166db8362e41969b64d5e07ca80e65"
           }
         }
@@ -50,7 +50,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "66acd9b0-dad4-4793-803e-2de7c3283808"
+        "projectId": "f87a2f2a-59ee-49d4-9dbd-007dd74f5b1c"
       }
     }
   }
